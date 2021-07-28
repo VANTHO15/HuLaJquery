@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.menu {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    z-index: 5;
+    width: 1064px;
+    height: 87px;
+    background: white;
+    opacity:0;
+      animation:hienra 0.5s forwards;
+     animation-delay:3.5s;
+}
+
+
+
+.chuto,.chunho {
+    z-index: 3;
+    position: absolute;
+    top: 33%;
+    left: 31%;
+    font-size: 45px;
+    font-family: segoe ui light;
+    color: #1B1B1B;
+    transition: 0.4s;
+    opacity:0;
+    animation:divao 1s forwards;
+    animation-delay:2s;
+
+}
+@-webkit-keyframes divao {
+    0%{transform:translateX(-600px); opacity:0;}
+    100%{transform:translateX(0px); opacity:1;}
+}
+
+.chunho {
+    font-size: 23px;
+    top: 46%;
+    left: 30%;
+    width: 401px;
+    text-align: center;
+    animation-delay:2.5s;
+}
+
+
+img.cogai {
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+    right: 24%;
+    transition: 0.4s;
+    bottom: -799px;
+    animation:cogai 1s forwards;
+    animation-delay:1s;
+    height: 717px;
+    /* margin-left: -60px; */
+    left: 740px;
+}
+@-webkit-keyframes cogai {
+    0%{
+        bottom:-800px;
+    }
+    100%{
+        bottom:0px;
+    }
+
+}
+
+.anhnen {
+    height: 800px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    background: url(../images/phong.jpg);
+    width: 100%;
+    transition: 0.4s;
+    background-size: cover;
+    opacity:0;
+    animation:hienra 1.4s forwards;
+
+}
+
+@-webkit-keyframes hienra {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+header.phantren {
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+.nut {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    z-index: 4;
+    background: #13bfb1;
+    color: white;
+    padding: 12px 24px;
+    font-family: segoe ui light;
+    border-radius: 5px;
+    opacity:0;
+     animation:hienra 0.5s forwards;
+     animation-delay:3s;
+}

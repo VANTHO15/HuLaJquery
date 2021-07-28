@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.noidung {
+    background: lightblue;
+    padding: 60px 201px;
+    width: 21%;
+    margin: auto;
+    margin-top: 100px;
+    perspective: 1000px;
+}
+
+.noidung:hover .anhdemo {
+    transform: scale(1.5);
+     transition: 2.8s;
+}
+
+img.anhdemo {
+    width: 401px;
+    transform-origin: 50% 50%;   // cách trái và cách trên
+   
+    transition-timing-function: cubic-bezier(1, -0.61, 1, 0.01);
+}

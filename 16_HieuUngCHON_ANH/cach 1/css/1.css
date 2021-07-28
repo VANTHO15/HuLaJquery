@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: segoe ui light;
+    font-size: 33px;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+header a {
+    text-decoration: none;
+    font-family: segoe ui light;
+    color: black;
+    background: lightpink;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+header li {
+    display: inline-block;
+    padding: 10px  21px;
+}
+
+header {
+    text-align: center;
+}
+
+header ul {
+    display: inline;
+}
+
+.content ul li img {max-width: 800px;}
+
+.content ul li {
+   	float: left;
+   	width: 25%;
+   	list-style: none;
+   	
+   	height: 300px;
+   	overflow: hidden;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}

@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.nutslide {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+
+ul {
+    display: inline-block;
+}
+
+.nutslide li {
+    list-style: none;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    background: gray;
+    border-radius: 50%;
+    text-indent: -9999px;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 1px solid white;
+}
+
+.nutslide li:hover {
+    background: black;
+}
+
+.nutslide li.xanh {
+    background: none;
+    border: 1px solid #5FB0DB;
+}
+
+.prev {
+    position: absolute;
+    z-index: 4;
+    top: 33%;
+    left: 0%;
+    cursor: pointer;
+}
+
+.next {
+    position: absolute;
+    top: 33%;
+    right: 0%;
+    z-index: 4;
+    cursor: pointer;
+}
+
+._1slide {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.anhslide {
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    overflow: hidden;
+    text-align: center;
+    background: black;
+    perspective: 2000px;
+}
+
+header.apple {
+    width: 1200px;
+    height: 700px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* viet cho hieu ung
+ */
+._1slide.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+._1slide.bien-mat-o-ben-trai {
+
+    animation:bien-mat-o-ben-trai  1.6s   forwards ;
+    transform-origin:50% 50%;
+}
+
+@-webkit-keyframes bien-mat-o-ben-trai {
+    0% {
+        transform:rotateX(0deg);
+        visibility: visible;
+        opacity:1;
+    }
+
+   
+
+
+    100% {
+        transform:  scale(0.7) translateZ(-800px);
+        visibility: hidden;
+        opacity:0;
+    }
+
+}
+
+
+
+
+
+._1slide.bien-mat-o-ben-phai {
+
+    animation:bien-mat-o-ben-phai  0.6s   forwards ;
+    transform-origin:100% 0%;
+}
+
+@-webkit-keyframes bien-mat-o-ben-phai {
+    0% {
+        transform:rotateY(0deg);
+        visibility: visible;
+        opacity:1;
+    }
+    100% {
+        
+        transform:rotateY(-30deg);
+        visibility: hidden;
+        opacity:0;
+    }
+
+}
+
+ 
+
+
+
+
+
+._1slide.di-vao-tu-ben-phai {
+
+    animation:di-vao-tu-ben-phai  0.6s ease-in-out forwards ;
+    animation-delay:0s;
+}
+
+@-webkit-keyframes di-vao-tu-ben-phai {
+    0% {
+        top:100%;
+        visibility: hidden;
+        opacity:0;
+    }
+    100% {
+        top:0%;
+        visibility: visible;
+        opacity:1;
+    }
+
+}
+
+
+
+._1slide.di-vao-tu-ben-trai {
+
+    animation:di-vao-tu-ben-trai  0.6s ease-in-out forwards ;
+}
+
+@-webkit-keyframes di-vao-tu-ben-trai {
+    0% {
+        left:-100%;
+        visibility: hidden;
+        opacity:0;
+    }
+    100% {
+        left:0%;
+        visibility: visible;
+        opacity:1;
+    }
+
+}
+
+

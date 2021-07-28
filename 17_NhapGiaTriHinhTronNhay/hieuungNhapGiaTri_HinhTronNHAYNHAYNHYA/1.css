@@ -1,0 +1,41 @@
+body {
+  background: #1a1c1d;
+  color: #888;
+  font-family: monospace;
+  font-size: 30px;
+}
+.settings {
+  position: absolute;
+  width: 500px;
+  margin-left: -250px;
+  left: 50%;
+  top: 50%;
+  margin-top: -150px;
+}
+.help {
+  font-size: 0.5em;
+}
+.help.help-bottom {
+  margin-left: 15.5em;
+}
+.el {
+  background: #37f;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -65px;
+  margin-top: -65px;
+}
+input {
+  background: transparent;
+  border: none;
+  color: #fff;
+  width: 2.5em;
+  border-bottom: 1px dotted #555;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}

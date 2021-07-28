@@ -1,0 +1,15 @@
+*{margin:0; padding:0;}
+.dangky, .dangnhap{
+	width:470px;
+	height:500px;
+	background:#f7f7f7;
+	border:1px solid gray;
+	padding:20px;
+	position:fixed;
+	top:100px;
+	left:50%;
+	transform:translateX(-50%);
+
+
+}
+.nutso1,.nutso2 {float: right;}

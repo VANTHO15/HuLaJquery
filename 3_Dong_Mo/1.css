@@ -1,0 +1,43 @@
+*{margin:0;padding:0;}
+
+.ndmotkhoi {
+    padding: 10px;
+    border: 1px solid #C2C2C2;
+    background: rgba(252, 252, 252, 0.56);
+    color: #3C3C3C;
+}
+
+.motkhoi h3 {
+    background: #f1c40f;
+    color: white;
+    padding: 10px 15px;
+}
+
+h3.xanh {
+    background: lightblue;
+}
+
+.motkhoi h3.xanh:hover {
+ 
+   background: url(images/arrow_up.png) no-repeat 96% lightblue;
+
+}
+
+.motkhoi h3:hover {
+    background: url(images/arrow_down.png) no-repeat 96% #f1c40f;
+}
+
+.hieuung {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container {
+    text-align: center;
+}
+
+body {
+    background: url(images/bgnoise_lg.jpg);
+    font-family: segoe ui light;
+}

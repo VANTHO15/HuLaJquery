@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.noidung {
+    background: lightblue;
+    padding: 60px 201px;
+    width: 21%;
+    margin: auto;
+    margin-top: 100px;
+    perspective: 1000px;  // để vào thẻ bố
+}
+
+.noidung:hover .anhdemo {
+    transform: rotateX(360deg);
+    opacity:0;
+}
+
+img.anhdemo {
+    width: 401px;
+    transform-origin: 50% 50%;   // cách trái và cách trên
+    transition: 2.8s;
+    transition-timing-function: cubic-bezier(1, -0.61, 1, 0.01);
+}

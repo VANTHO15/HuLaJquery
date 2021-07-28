@@ -1,0 +1,22 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.noidung {
+    background: lightblue;
+    padding: 60px 201px;
+    width: 21%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.noidung:hover .anhdemo {
+    transform: translateX(500px);
+    transition: 2.8s;
+     transition-timing-function: cubic-bezier(1, -0.61, 1, 0.01);
+}
+
+img.anhdemo {
+    width: 401px;
+}
